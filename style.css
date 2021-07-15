@@ -1,8 +1,9 @@
-body {
+
+body, html {
     margin: 0 auto;
     max-width: 700;
-    line-height: 160%;
-    padding: 24px;
+    line-height: 180%;
+    padding: 8px;
     font-family: sans-serif;
     background-color: #282a36;
 /*     background-color: #0d1117; */
@@ -35,7 +36,8 @@ a {
     }
 .calibre1 {
     height: auto;
-    width: auto
+    max-width: 100%;
+    width: auto;
     }
 .calibre2 {
     display: block;

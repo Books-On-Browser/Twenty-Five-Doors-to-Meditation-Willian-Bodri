@@ -1,5 +1,5 @@
 
-body, html {
+body {
     margin: 0 auto;
     max-width: 700px;
     line-height: 180%;
@@ -13,6 +13,11 @@ body, html {
 a {
 /*     color: #58a6ff; */
     color: #6272a4;
+}
+.dropcap:first-letter {
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.2
 }
 .blockquote {
     display: block;
